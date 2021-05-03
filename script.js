@@ -5,21 +5,21 @@ document.getElementById('show').addEventListener('click', show)
 document.getElementById('background').addEventListener('click', background)
 
 function image () {
-  document.getElementById('image').src = "./images/JBA.jpeg"
+  document.getElementById('image').src = 'images/JBA.jpeg'
 }
 
 function text () {
-  document.getElementById('text').innerHTML = "New Text"
+  document.getElementById('text').innerHTML = 'New Text'
 }
 
 function hide () {
-  document.getElementById('text').style.display = "none"
+  document.getElementById('text').style.display = 'none'
 }
 
 function show () {
-  document.getElementById('text').style.display = "block"
+  document.getElementById('text').style.display = 'block'
 }
 
 function background () {
-  document.body.style.backgroundColor = "#ffd166"
+  document.body.style.backgroundColor = '#ffd166'
 }
